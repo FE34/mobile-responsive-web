@@ -20,5 +20,21 @@
         </nav>
         <a href="#register" class="btn-cta">Daftar</a>
     </header>
+
+    <form class="form" id="bmi-form" onsubmit="return validateForm()">
+    <h1>Yuk cari tahu kebutuhan kalorimu!</h1>
+    <p>Apa jenis kelaminmu?</p>
+    <label class="gender">
+        <input type="radio" name="radio" id="f"><p class="text">Perempuan</p>
+        <span class="checmark"></span>
+    </label>
+    <label class="gender">
+        <input type="radio" name="radio" id="m"><p class="text">Laki-laki</p>
+        <span class="checmark"></span>
+    </label>
+    <p class="text">Berapa usiamu?</p>
+    <input type="text" class="input-text" id="age" autocomplete="off" required>
+    
+    </form>
 </body>
 </html>
