@@ -13,7 +13,7 @@
 
 .form {
     background-color: #fff;
-    height: 450px;
+    height: 420px;
     width: 450px;
     border-radius: 20px;
     margin: 20px auto 20px auto;
@@ -96,7 +96,7 @@ p {
     border: none;
     border-radius: 10px;
     height: 40px;
-    width: 140px;
+    width: 120px;
     background-color: #73c5aa;
     color: #fff;
     margin-right: 30px;
@@ -104,4 +104,21 @@ p {
 
 .btn {
     margin: 10px 70px;
+    padding-top: 20px;
 }
+
+#submit:hover {
+    background-color: #97d0bc;
+}
+
+#btnReset {
+    border: none;
+    color: #5fac92;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#btnReset:hover {
+    color: #2a6450;
+}
+
