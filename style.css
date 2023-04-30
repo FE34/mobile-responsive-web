@@ -25,6 +25,23 @@
     padding: 20px;
 }
 
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.gender {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+.gender input {
+    position: absolute;
+    opacity: 0;
+}
+
 .input-text{
     width: 200px;
     height: 30px;
