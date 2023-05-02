@@ -76,13 +76,15 @@ header {
 }
 
 .container {
-    padding: 20px;
+    margin-left: 50px;  
     
 }
 
 h1 {
     font-size: 20px;
     margin-bottom: 20px;
+    margin-left: 50px;
+    padding-top: 10px;
 }
 
 .gender {
@@ -144,7 +146,7 @@ h1 {
 
 p {
     font-size: 14px;
-    margin: 5px;
+    margin: 8px;
 }
 
 #submit {
@@ -158,7 +160,7 @@ p {
 }
 
 .btn {
-    margin: 10px 70px;
+    margin: 10px 40px;
     padding-top: 20px;
 }
 
