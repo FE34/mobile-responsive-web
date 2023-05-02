@@ -17,11 +17,52 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2px 20px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1;
+}
+
+.menu-nav a {
+    font-family: Poppins, sans-serif;
+    position: relative;
+    font-size: 1 rem;
+    margin-left: 3.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-nav a:hover,
+.menu-nav a.active {
+    color: #88E169;
+}
+
+.menu-nav a:hover::after,
+.menu-nav a.active::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #88E169;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.btn-cta {
+    display: inline-block;
+    background-color: #88E169;
+    color: #000;
+    font-family: Poppins, sans-serif;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1 rem;
+    font-weight: 400;
+    transition: 0.3 ease;
+}
+
+.btn-cta:hover {
+    color: #fff;
+    background-color: #389E0D;
 }
 
 .form {
@@ -29,7 +70,7 @@ header {
     height: 420px;
     width: 450px;
     border-radius: 20px;
-    margin: 100px auto 20px auto;
+    margin: 120px auto 20px auto;
     display: block;
     box-shadow: 0 0 2px;
 }
