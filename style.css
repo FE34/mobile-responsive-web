@@ -11,18 +11,32 @@
     scroll-behavior: smooth;
 }
 
+header {
+    background: rgba(255, 255, 255, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
 .form {
     background-color: #fff;
     height: 420px;
     width: 450px;
     border-radius: 20px;
-    margin: 20px auto 20px auto;
+    margin: 100px auto 20px auto;
     display: block;
     box-shadow: 0 0 2px;
 }
 
 .container {
     padding: 20px;
+    
 }
 
 h1 {
@@ -122,8 +136,5 @@ p {
     color: #2a6450;
 }
 
-.text {
-    display: inline-block;
-    margin: 5px 20px 5px 8px;
-}
+
 
