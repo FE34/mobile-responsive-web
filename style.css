@@ -179,5 +179,19 @@ p {
     color: #2a6450;
 }
 
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #3c6859;
+    padding-top: 15px;
+    display: block;
+}
 
+h3 {
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    
+}
 
