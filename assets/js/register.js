@@ -25,12 +25,12 @@ class Login {
                 var pass = localStorage.setItem("pw", pw);
                 if (uid == user) {
                     if (pw == pass) {
-                        alert('Register Successful');
                         this.form.submit();
                     } else {
                         alert('Register Failed');
                     }
                 } else {
+                    alert('Register Successful');
                     window.location.replace("/dist/login.html");
                 }
             }
@@ -41,7 +41,7 @@ class Login {
         if (field.value.trim() == "") {
             this.setStatus(
                 field,
-                `${field.previousElementSibling.innerText} cannot be blank`,
+                `${field.previousElementSibling.innerText} tidak boleh kosong`,
                 "error"
             );
             return false;
@@ -50,7 +50,7 @@ class Login {
                 if (field.value.length < 8) {
                     this.setStatus(
                         field,
-                        `${field.previousElementSibling.innerText} must be at least 8 characters`,
+                        `${field.previousElementSibling.innerText} harus minimal 8 karakter`,
                         "error"
                     );
                     return false;

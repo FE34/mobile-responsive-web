@@ -13,35 +13,33 @@
 <body class="login">
     <div class="container">
         <h2 class="text-center">Register</h2>
-        <p class="text-center">Please enter your username and password!</p>
         <br>
         <form class="loginForm">
             <div class="input-group">
-                <label for="name" class="label">Name</label>
+                <label for="name" class="label">Nama</label>
                 <input type="text" id="name" class="input">
                 <span class="error-message"></span>
             </div>
-            <br>
             <div class="input-group">
-                <label for="age" class="label">Age</label>
-                <input type="text" id="age" class="input">
+                <label for="age" class="label">Umur</label>
+                <input type="number" id="age" class="input">
                 <span class="error-message"></span>
             </div>
-            <br>
             <div class="input-group">
                 <label for="username" class="label">Username</label>
                 <input type="text" id="username" class="input">
                 <span class="error-message"></span>
             </div>
-            <br>
             <div class="input-group">
                 <label for="password" class="label">Password</label>
                 <input type="password" class="input" id="password">
                 <span class="error-message"></span>
             </div>
-            <br>
             <button class="button" type="submit">Login</button>
         </form>
+
+        <p class="text-center">Sudah memiliki akun? <a href="/dist/register.html">Login</a></p>
+        <p class="text-center">&#169; 2023 Tim FE34 Skilvul</p>
     </div>
 
 </body>
