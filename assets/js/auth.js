@@ -17,6 +17,6 @@ class Auth {
     logOut() {
         localStorage.removeItem("uid");
         localStorage.removeItem("pw");
-        window.location.replace("/");
+        window.location.replace("/index.html");
     }
 }
