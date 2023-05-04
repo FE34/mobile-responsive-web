@@ -89,6 +89,6 @@ class Login {
 
 const form = document.querySelector(".loginForm");
 if (form) {
-    const fields = ["username", "password"];
+    const fields = ["name", "age", "username", "password"];
     const validator = new Login(form, fields);
 }
