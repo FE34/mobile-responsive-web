@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assets/css/register.css">
+    <title>Login</title>
+    <script defer src="/assets/js/login.js"></script>
+</head>
+
+<body class="login">
+    <div class="container">
+        <h2 class="text-center">Login</h2>
+        <p class="text-center">Masukan username dan password anda!</p>
+        <br>
+        <form action="/dist/main.html" class="loginForm">
+            <div class="input-group">
+                <label for="username" class="label">Username</label>
+                <input type="text" id="username" class="input">
+                <span class="error-message"></span>
+            </div>
+            <br>
+            <div class="input-group">
+                <label for="password" class="label">Password</label>
+                <input type="password" class="input" id="password">
+                <span class="error-message"></span>
+            </div>
+            <br>
+            <button class="button" type="submit">Login</button>
+        </form>
+        <p class="text-center">Belum memiliki akun? <a href="/dist/register.html">Register</a></p><br>
+        <p class="text-center">&#169; 2023 Tim FE34 Skilvul</p>
+    </div>
+
+</body>
+
+</html>
