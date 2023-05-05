@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Sofia&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: rgba(255, 255, 255, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.menu-nav a {
+    font-family: Poppins, sans-serif;
+    position: relative;
+    font-size: 1 rem;
+    margin-left: 3.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-nav a:hover,
+.menu-nav a.active {
+    color: #88E169;
+}
+
+.menu-nav a:hover::after,
+.menu-nav a.active::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #88E169;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.btn-cta {
+    display: inline-block;
+    background-color: #88E169;
+    color: #000;
+    font-family: Poppins, sans-serif;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1 rem;
+    font-weight: 400;
+    transition: 0.3 ease;
+}
+
+.btn-cta:hover {
+    color: #fff;
+    background-color: #389E0D;
+}
+
+.form {
+    background-color: #fff;
+    height: 420px;
+    width: 450px;
+    border-radius: 20px;
+    margin: 120px auto 20px auto;
+    display: block;
+    box-shadow: 0 0 2px;
+}
+
+.container {
+    margin-left: 50px;  
+    
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+.gender {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+.gender input {
+    position: absolute;
+    opacity: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    box-shadow: 0 0 1px;
+    border-radius: 50%;
+}
+
+.gender:hover input ~ .checkmark {
+    background-color: rgb(188, 210, 205);
+}
+.gender input:checked ~ .checkmark {
+    background-color: #73c5aa;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.gender input:checked ~ .checkmark:after {
+    display: block;
+}
+.gender .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.input-text{
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    border: solid 1px #ccc;
+    padding: 5px 10px;
+}
+
+p {
+    font-size: 14px;
+    margin: 8px;
+}
+
+#submit {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    background-color: #73c5aa;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.btn {
+    margin: 10px 40px;
+    padding-top: 20px;
+}
+
+#submit:hover {
+    background-color: #97d0bc;
+}
+
+#btnReset {
+    border: none;
+    color: #5fac92;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#btnReset:hover {
+    color: #2a6450;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #3c6859;
+    padding-top: 15px;
+    display: block;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    
+}
+
