@@ -5,6 +5,7 @@ let male = document.getElementById("m");
 let female = document.getElementById("f");
 let form = document.getElementById("form");
 let btnReset = document.getElementById("btnReset");
+
 function validateForm() {
     if (
         age.value == "" ||
@@ -21,6 +22,7 @@ function validateForm() {
     }
 }
 document.getElementById("submit").addEventListener("click", validateForm);
+
 function countBmi() {
     let p = [age.value, height.value, weight.value];
     if (male.checked) {
@@ -29,7 +31,7 @@ function countBmi() {
         p.push("female");
     }
     form.reset();
-    let bmi = Number(p[2]) / (Math.pow(Number(p[1]) / 100, 2)) ;
+    let bmi = Number(p[2]) / (Math.pow(Number(p[1]) / 100, 2));
     let result = "";
 
     if (bmi < 18.5) {

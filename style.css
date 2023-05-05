@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Sofia&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Poppins, sans-serif;
@@ -76,8 +76,8 @@ header {
 }
 
 .container {
-    margin-left: 50px;  
-    
+    margin-left: 50px;
+
 }
 
 h1 {
@@ -94,6 +94,7 @@ h1 {
     cursor: pointer;
     user-select: none;
 }
+
 .gender input {
     position: absolute;
     opacity: 0;
@@ -109,10 +110,11 @@ h1 {
     border-radius: 50%;
 }
 
-.gender:hover input ~ .checkmark {
+.gender:hover input~.checkmark {
     background-color: rgb(188, 210, 205);
 }
-.gender input:checked ~ .checkmark {
+
+.gender input:checked~.checkmark {
     background-color: #73c5aa;
 }
 
@@ -121,9 +123,11 @@ h1 {
     position: absolute;
     display: none;
 }
-.gender input:checked ~ .checkmark:after {
+
+.gender input:checked~.checkmark:after {
     display: block;
 }
+
 .gender .checkmark:after {
     left: 9px;
     top: 5px;
@@ -134,7 +138,7 @@ h1 {
     transform: rotate(45deg);
 }
 
-.input-text{
+.input-text {
     width: 200px;
     height: 30px;
     border-radius: 8px;
@@ -192,6 +196,5 @@ h3 {
     font-size: 26px;
     font-weight: 300;
     text-align: center;
-    
-}
 
+}

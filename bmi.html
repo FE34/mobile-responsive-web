@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <header>
         <a href="" class="logo">
@@ -24,31 +26,34 @@
     <form class="form" id="form" onsubmit="return validateForm()">
         <h1>Yuk cari tahu kebutuhan kalorimu!</h1>
         <div class="container">
-            
+
             <p>Apa jenis kelaminmu?</p>
             <label class="gender">
-                <input type="radio" name="radio" id="f"><p class="text">Perempuan</p>
+                <input type="radio" name="radio" id="f">
+                <p class="text">Perempuan</p>
                 <span class="checkmark"></span>
             </label>
             <label class="gender">
-                <input type="radio" name="radio" id="m"><p class="text">Laki-laki</p>
+                <input type="radio" name="radio" id="m">
+                <p class="text">Laki-laki</p>
                 <span class="checkmark"></span>
             </label>
             <p class="text">Berapa usiamu?</p>
             <input type="text" class="input-text" id="age" autocomplete="off" required>
-            
+
             <p class="text">Berapa tinggi badanmu? (cm)</p>
-            <input type="text" class="input-text" id="height" autocomplete="off" required >
-            
+            <input type="text" class="input-text" id="height" autocomplete="off" required>
+
             <p class="text">Berapa berat badanmu? (kg)</p>
-            <input type="text" class="input-text" id="weight" autocomplete="off" required >
-            
+            <input type="text" class="input-text" id="weight" autocomplete="off" required>
+
             <div class="btn">
                 <button type="button" id="submit">Hitung</button>
                 <button type="reset" id="btnReset" onclick="window.location.reload()">Reset</button>
             </div>
-        </div>      
+        </div>
     </form>
     <script src="js/script.js"></script>
 </body>
+
 </html>

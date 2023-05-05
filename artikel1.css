@@ -561,13 +561,14 @@ img {
 }
 
 @media screen and (min-width: 968px) {
+
     .putih,
     .bd-container {
         margin-left: auto;
         margin-right: auto;
     }
 
-    .col-sm-3{
+    .col-sm-3 {
         margin-left: auto;
         margin-right: auto;
     }
@@ -585,123 +586,125 @@ img {
         column-gap: 5rem;
     }
 }
+
 .col-md-4 {
     display: flex;
     flex-wrap: wrap;
     margin: 100px;
     flex-direction: column;
-  }
-  
-  .col-sm-3{
+}
+
+.col-sm-3 {
     margin-top: 100px;
-  }
-  .card {
+}
+
+.card {
     margin: 0px 0px 0px 70px;
     width: 80%;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
     padding: 10px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .card a{
+.card a {
     text-decoration: none;
-  }
-  
-  .card img {
+}
+
+.card img {
     border-radius: 5px;
     display: block;
     width: 100%;
     object-fit: cover;
     margin-bottom: 10px;
-  }
-  
-  .card h3 {
+}
+
+.card h3 {
     margin: 0;
     font-size: 18px;
     font-weight: 600;
     color: #333;
-  }
-  
-  .card p {
+}
+
+.card p {
     font-size: 14px;
     color: #666;
-  }
+}
 
-  .tengah{
+.tengah {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-  }
+}
 
-  .tengah img{
+.tengah img {
     height: 300px;
     width: 500px;
     text-align: left;
     margin-bottom: 40px;
-  }
+}
 
-  .row {
+.row {
     padding: 50px;
-  }
+}
 
-  .kiri{
+.kiri {
     text-align: left;
-  }
+}
 
-  .col img{
+.col img {
     height: 100px;
-  }
+}
 
-  .avatar{
+.avatar {
     width: 50px;
     margin-bottom: 10px;
-  }
+}
 
-  h1 {
+h1 {
     font-size: 30px;
     text-align: center;
-  }
-  
-  .putih p {
+}
+
+.putih p {
     font-size: 20px;
     margin: 10px;
-  }
-  
-  button {
+}
+
+button {
     font-size: 20px;
     padding: 5px;
     margin: 10px;
-  }
-  
-  .popup {
+}
+
+.popup {
     display: none;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
-  }
-  
-  .putih{
+}
+
+.putih {
     background-color: white;
     margin: 50px;
     border-radius: 30px;
-  }
+}
 
-  .popup p {
+.popup p {
     font-size: 15px;
     color: black;
     text-align: center;
     margin-top: 20%;
-  }
-  
-  .popup button {
+}
+
+.popup button {
     border: none;
     background-color: white;
     font-size: 20px;
@@ -709,52 +712,52 @@ img {
     margin: 10px;
     margin-left: 20px;
     width: 20px;
-  }
+}
 
-  
-  h1 {
+
+h1 {
     font-size: 30px;
     text-align: center;
-  }
-  
-  .putih p {
+}
+
+.putih p {
     font-size: 20px;
     margin: 10px;
-  }
-  
-  button {
+}
+
+button {
     font-size: 20px;
     padding: 5px;
     margin: 10px;
-  }
-  
-  .popup {
+}
+
+.popup {
     display: none;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
-  }
-  
-  .putih{
+}
+
+.putih {
     background-color: white;
     margin: 50px;
     border-radius: 30px;
     font-size: 15px;
     margin-top: 100px;
-  }
+}
 
-  .popup p {
+.popup p {
     font-size: 15px;
     color: black;
     text-align: center;
     margin-top: 20%;
-  }
-  
-  .popup button {
+}
+
+.popup button {
     border: none;
     background-color: white;
     font-size: 20px;
@@ -762,18 +765,16 @@ img {
     margin: 10px;
     margin-left: 20px;
     width: 20px;
-  }
+}
 
-  .putih .row{
+.putih .row {
     padding: 0;
-  }
+}
 
-  .pop{
+.pop {
     background-color: #88E169;
     color: white;
     border: none;
     border-radius: 20px;
     margin-left: 100px;
-  }
-  
-  
+}
