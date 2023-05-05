@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://i.ibb.co/ThWFDqN/fav-icon.png" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/artikel.css">
     <script defer src="/assets/js/auth.js"></script>
     <script defer src="/assets/js/init.js"></script>
     <title>HealthyCare</title>
@@ -26,9 +26,9 @@
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="/dist/main.html" class="nav__link active-link">Beranda</a></li>
-                    <li class="nav__item"><a href="#decoration" class="nav__link">Layanan</a></li>
-                    <li class="nav__item"><a href="/dist/artikel.html#accessory" class="nav__link">Artikel</a></li>
+                    <li class="nav__item"><a href="/dist/main.html" class="nav__link">Beranda</a></li>
+                    <li class="nav__item"><a href="/dist/main.html#decoration" class="nav__link">Layanan</a></li>
+                    <li class="nav__item"><a href="artikel.html" class="nav__link active-link">Artikel</a></li>
 
                     <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
                     <li class="nav__item"><a href="/index.html" class="button logout">Logout</a></li>
@@ -41,103 +41,78 @@
         </nav>
     </header>
 
+    <!-- Home Section  -->
     <main class="l-main">
-        <!-- Home Section  -->
         <section class="home" id="home">
             <div class="home__container bd-container bd-grid">
                 <div class="home__img">
-                    <img src="/assets/img/main-pic.png" alt="">
+                    <img src="/assets/img/diet1.jpg" alt="">
                 </div>
 
                 <div class="home__data">
-                    <h1 class="home__title">Diet Sehat, Gizi Seimbang</h1>
-                    <p class="home__description">Diet sesuai pola makan untuk memenuhi angka kebutuhan gizi dan dapatkan
-                        tubuh ideal mu. Pilih makanan sehatmu dan control diet-mu sekarang dengan Healthy Care. Solusi
-                        Cerdas Diet Gizi seimbang!</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Layanan Section  -->
-        <section class="decoration section bd-container" id="decoration">
-            <h2 class="section-title">Layanan Kami<br> Untuk membantu diet gizi seimbang</h2>
-            <div class="decoration__container bd-grid">
-                <div class="decoration__data">
-                    <img src="/assets/img/calculator.png" alt="" class="decoration__img">
-                    <h3 class="decoration__title">Kalkulator <br> Index Massa Tubuh</h3>
-                    <a href="/dist/bmi.html" class="button button-link">Coba sekarang ...</a>
-                </div>
-
-                <div class="decoration__data">
-                    <img src="/assets/img/diet_gizi.png" alt="" class="decoration__img">
-                    <h3 class="decoration__title">Rekomendasi Diet <br>Gizi Seimbang</h3>
-                    <a href="/dist/artikel.html" class="button button-link">Coba Sekarang ...</a>
-                </div>
-
-                <div class="decoration__data">
-                    <img src="/assets/img/calorie.png" alt="" class="decoration__img">
-                    <h3 class="decoration__title">Perhitungan Kebutuhan Kalori Harian</h3>
-                    <a href="/dist/calorie.html" class="button button-link">Coba Sekarang ...</a>
+                    <h1 class="home__title">Tubuh Sehat, Badan Ideal</h1>
+                    <p class="home__description">Lakukan Tantangan Diet 7 Hari Bersama HealthyCare.</p>
+                    <a href="/dist/calorie.html" class="button">Yuk Hitung Kalorimu</a>
                 </div>
             </div>
         </section>
 
         <!-- Artikel Section  -->
         <section class="accessory section bd-container" id="accessory">
-            <h2 class="section-title">Artikel <br> Temukan artikel menarik untuk membantu diet gizi seimbang!</h2>
+            <h2 class="section-title">Rekomendasi Diet</h2>
 
             <div class="accessory__container bd-grid">
                 <div class="accessory__content">
                     <img src="/assets/img/diet2.jpeg" alt="" class="accessory__img">
                     <h3 class="accessory__title">Diet Mayo</h3>
-                    <span class="accessory__category">Pola Makan</span>
                     <span class="accessory__preci"><a href="/dist/artikel-content/artikel1.html"
-                            class="button button-link">Detail ...</a></span>
+                            class="button button-link">Detail
+                            ...</a></span>
                     <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
                 </div>
 
                 <div class="accessory__content">
                     <img src="/assets/img/diet3.jpg" alt="" class="accessory__img">
                     <h3 class="accessory__title">Diet Tinggi Protein</h3>
-                    <span class="accessory__category">Pola Makan</span>
                     <span class="accessory__preci"><a href="/dist/artikel-content/artikel2.html"
-                            class="button button-link">Detail ...</a></span>
+                            class="button button-link">Detail
+                            ...</a></span>
                     <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
                 </div>
 
                 <div class="accessory__content">
                     <img src="/assets/img/diet8.jpg" alt="" class="accessory__img">
                     <h3 class="accessory__title">Diet Protein Shake</h3>
-                    <span class="accessory__category">Pola Makan</span>
                     <span class="accessory__preci"><a href="/dist/artikel-content/artikel3.html"
-                            class="button button-link">Detail ...</a></span>
+                            class="button button-link">Detail
+                            ...</a></span>
                     <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
                 </div>
 
                 <div class="accessory__content">
                     <img src="/assets/img/diet5.jpg" alt="" class="accessory__img">
                     <h3 class="accessory__title">Zone Diet</h3>
-                    <span class="accessory__category">Tips And Trik</span>
                     <span class="accessory__preci"><a href="/dist/artikel-content/artikel4.html"
-                            class="button button-link">Detail ...</a></span>
+                            class="button button-link">Detail
+                            ...</a></span>
                     <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
                 </div>
 
                 <div class="accessory__content">
                     <img src="/assets/img/diet6.jpg" alt="" class="accessory__img">
                     <h3 class="accessory__title">Diet Mediterania</h3>
-                    <span class="accessory__category">Food Knowledge</span>
                     <span class="accessory__preci"><a href="/dist/artikel-content/artikel5.html"
-                            class="button button-link">Detail ...</a></span>
+                            class="button button-link">Detail
+                            ...</a></span>
                     <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
                 </div>
 
                 <div class="accessory__content">
                     <img src="/assets/img/diet7.jpeg" alt="" class="accessory__img">
                     <h3 class="accessory__title">Diet Atkins</h3>
-                    <span class="accessory__category">Tips And Trik</span>
                     <span class="accessory__preci"><a href="/dist/artikel-content/artikel6.html"
-                            class="button button-link">Detail ...</a></span>
+                            class="button button-link">Detail
+                            ...</a></span>
                     <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
                 </div>
         </section>
@@ -148,7 +123,7 @@
         <div class="footer__container bd-container bd-grid">
             <div class="footer__content">
                 <h3 class="footer__title">
-                    <a href="index.html" class="footer__logo">HealthyCare</a>
+                    <a href="/dist/main.html" class="footer__logo">HealthyCare</a>
                 </h3>
                 <p class="footer__description">Healthy Care. Solusi
                     Cerdas Diet Gizi seimbang!</p>

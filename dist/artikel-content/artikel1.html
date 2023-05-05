@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://i.ibb.co/ThWFDqN/fav-icon.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/assets/css/artikel1.css">
+    <script defer src="/assets/js/auth.js"></script>
+    <script defer src="/assets/js/init.js"></script>
+    <title>HealthyCare</title>
+</head>
+
+<body>
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+    </a>
+
+    <!-- Header Section  -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="/dist/main.html" class="nav__logo">
+                <img src="/assets/img/logo.png">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="/dist/main.html" class="nav__link">Beranda</a></li>
+                    <li class="nav__item"><a href="/dist/main.html#decoration" class="nav__link">Layanan</a></li>
+                    <li class="nav__item"><a href="/dist/artikel.html#accessory"
+                            class="nav__link active-link">Artikel</a></li>
+
+                    <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    <li class="nav__item"><a href="/index.html" class="button logout">Logout</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main row">
+        <!-- Home Section  -->
+        <section class="home col-sm-8" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">Diet Mayo</h1>
+                    <div class="home__img">
+                        <img src="/assets/img/diet2.jpeg" alt="" class="mx-auto d-block">
+                    </div>
+                    <div class="kiri">
+                        <p>Diet mayo adalah metode diet yang dirancang oleh Mayo Clinic, sebuah organisasi medis
+                            non-profit asal Amerika
+                            Serikat. Tak hanya untuk menurunkan berat badan, diet ini juga mendukung perubahan gaya
+                            hidup menjadi lebih
+                            sehat secara bertahap dan berkelanjutan.</p>
+                        <p>Salah satu fokus utama dari diet ini adalah berfokus pada perubahan perilaku. Seperti tidak
+                            makan sambil menonton
+                            televisi atau meningkatkan asupan buah dan sayuran yang kamu makan dalam sehari, untuk
+                            membantu menurunkan berat
+                            badan dan mempertahankannya.</p>
+                        <h2>Tujuan Diet Mayo</h2>
+                        <p>Tujuan dari diet mayo adalah untuk membantu menurunkan berat badan berlebih, dan menemukan
+                            cara makan yang lebih sehat.
+                            Tak hanya untuk saat ini, tapi juga untuk dipertahankan seumur hidup.</p>
+                        <p>Diet ini didasarkan pada ilmu perubahan perilaku, yang akan membantu menemukan motivasi
+                            batin, untuk menurunkan berat badan.
+                            Ini juga dapat membantu menetapkan tujuan yang dapat dicapai, dan belajar menangani
+                            kemunduran.</p>
+                        <h2>Manfaat Diet Mayo</h2>
+                        <p>Manfaat terbesar dari diet mayo adalah tentang membuat perubahan perilaku sehat, alih-alih
+                            menghitung kalori atau
+                            zat gizi makro. Salah satu alasan diet tidak berhasil adalah begitu orang berhenti membatasi
+                            makanan tertentu dan
+                            melanjutkan perilaku pra-diet, berat badan akan naik kembali. Untuk itu, diet ini berfokus
+                            untuk mempertahankan
+                            perubahan perilaku untuk kesehatan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Artikel Section  -->
+        <div class="col col-sm-3">
+            <div class="card"><a href="/dist/artikel-content/artikel2.html">
+                    <img src="/assets/img/diet3.jpg" alt="nature">
+                    <h3>Diet Tinggi Protein</h3>
+                    <!-- <p>diet yang disertai dengan pembatasan karbohidrat dan digantikan...</p> -->
+                </a>
+            </div>
+
+            <div class="card"><a href="artikel3.html">
+                    <img src="/assets/img/diet8.jpg" alt="people">
+                    <h3>Diet Protein Shake</h3>
+                    <!-- <p>mengonsumsi protein shake adalah cara mudah untuk menambahkan...</p> -->
+                </a>
+            </div>
+
+            <div class="card"><a href="artikel4.html">
+                    <img src="/assets/img/diet5.jpg" alt="tech">
+                    <h3>Zone Diet</h3>
+                    <!-- <p>metode penurunan berat badan yang dilakukan dengan menerapkan...</p> -->
+                </a>
+            </div>
+
+            <div class="card"><a href="artikel5.html">
+                    <img src="/assets/img/diet6.jpg" alt="architecture">
+                    <h3>Diet Mediterania</h3>
+                    <!-- <p>pola makan yang didasarkan pada masakan tradisional Yunani...</p> -->
+                </a>
+            </div>
+
+            <div class="card"><a href="artikel6.html">
+                    <img src="/assets/img/diet7.jpeg" alt="any">
+                    <h3>Diet Atkins</h3>
+                    <!-- <p>merupakan salah satu jenis diet yang diyakini mampu menurunkan...</p> -->
+                </a>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <button class="pop button" onclick="openPopup()">Buka Popup</button>
+    <div class="popup" id="popup">
+        <div class="putih">
+            <div class="row">
+                <button onclick="closePopup()"><i class='bx bxs-x-circle'></i></button>
+                <h1>Menu Diet Mayo</h1>
+                <div class="col-sm-4">
+                    Hari Pertama
+                    <ul type="circle">
+                        <li>Pagi: 1 cangkir kopi tubruk/tea + 1 sdk gula pasir</li>
+                        <li>Siang: 2 telur rebus matang + 1 ikat bayam + tomat</li>
+                        <li>Malam: 1,5 ons bistik panggang/rebus + selada yang ditaburi jeruk citrun</li>
+                    </ul>
+                    Hari Kedua
+                    <ul type="circle">
+                        <li>Pagi: 1 cangkir kopi tubruk/tea + 1 sdk gula pasir</li>
+                        <li>Siang: 1,5 ons bistik panggang/rebus + selada + 1 buah segar (pear)</li>
+                        <li>Malam: 2,5 ons ayam kukus + 1 buah pisang</li>
+                    </ul>
+                    Hari Ketiga
+                    <ul type="circle">
+                        <li>Pagi: 1 cangkir kopi tubruk/tea + 1 sdk gula pasir</li>
+                        <li>Siang: 2 telur rebus matang + 1 ikat bayam + tomat + pear</li>
+                        <li>Malam: 2,5 ons ayam kukus + selada yang ditaburi jeruk citrun</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    Hari Keempat
+                    <ul type="circle">
+                        <li>Pagi: 1 cangkir kopi tubruk/tea + 1 sdk gula pasir + 1 iris roti bakar</li>
+                        <li>Siang: 1 telur rebus + wortel rebus sebentar + keju trim 20 gr (di gelael)</li>
+                        <li>Malam: 1 mangkok penuh pepaya + citrun + 1 gelas susu non fat</li>
+                    </ul>
+                    Hari Kelima
+                    <ul type="circle">
+                        <li>Pagi: 1 wortel besar mentah diparut kasar ditaburi jeruk citrun</li>
+                        <li>Siang: 2,5 ons ayam kukus dengan sedikit saus mentega yg tidak asin</li>
+                        <li>Malam: 2,5 ons bistik panggang/rebus + selada + bayam</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    Hari Keenam
+                    <ul type="circle">
+                        <li>Pagi: 1 cangkir kopi tubruk/tea + 1 sdk gula pasir + 1 iris roti bakar</li>
+                        <li>Siang: 2,5 ons ayam kukus + selada ditaburi jeruk citrun</li>
+                        <li>Malam: 2 telur rebus + wortel besar parut mentah ditaburi citrun</li>
+                    </ul>
+                    Hari Ketujuh
+                    <ul type="circle">
+                        <li>Pagi: 1 cangkir kopi tubruk/tea tanpa gula</li>
+                        <li>Siang: 1,5 ons bistik panggang+ 1 buah segar (pear)</li>
+                        <li>Malam: 2 telur rebus + wortel besar parut mentah ditaburi citrun</li>
+                        <p><strong>Note: Ulangi jika berat badan ingin terus menurun</strong></p>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section  -->
+    <footer class="footer section">
+        <div class="footer__container bd-container bd-grid">
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    <a href="/dist/main.html" class="footer__logo">HealthyCare</a>
+                </h3>
+                <p class="footer__description">Healthy Care. Solusi
+                    Cerdas Diet Gizi seimbang!</p>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Layanan Kami</h3>
+                <ul>
+                    <li><a href="/dist/main.html" class="footer__link">BMI Calculator</a></li>
+                    <li><a href="/dist/main.html" class="footer__link">Artikel</a></li>
+                    <li><a href="/dist/main.html" class="footer__link">Kalori Harian</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Tentang Kami</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Blog</a></li>
+                    <li><a href="#" class="footer__link">Visi Perusahaan</a></li>
+                    <li><a href="#" class="footer__link">Misi Kami</a></li>
+                </ul>
+
+                <h3 class="footer__title">Social</h3>
+                <a href="https://www.facebook.com" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
+                <a href="https://twitter.com" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                <a href="https://instagram.com" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Mitra & Challenge</h3>
+                <a href="https://danone.co.id"><img src="/assets/img/danone.png"></a>
+                <a href="https://skilvul.com/home"><img src="/assets/img/skilvul.png"></a>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; 2023 Tim FE34 Skilvul</p>
+    </footer>
+
+    <!-- Javascript  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/assets/js/artikel1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

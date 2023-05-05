@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://i.ibb.co/ThWFDqN/fav-icon.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/bmi.css">
+    <script defer src="/assets/js/auth.js"></script>
+    <script defer src="/assets/js/init.js"></script>
+    <title>HealthyCare</title>
+</head>
+
+<body>
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+    </a>
+
+    <!-- Header Section  -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">
+                <img src="/assets/img/logo.png">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="/dist/main.html" class="nav__link">Beranda</a></li>
+                    <li class="nav__item"><a href="/dist/main.html#decoration" class="nav__link active-link">Layanan</a>
+                    </li>
+                    <li class="nav__item"><a href="/dist/artikel.html#accessory" class="nav__link">Artikel</a></li>
+
+                    <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    <li class="nav__item"><a href="/index.html" class="button logout">Logout</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!-- BMI Section  -->
+        <form class="form" id="form" onsubmit="return validateForm()">
+            <h1>Yuk cari tau Indeks Massa Tubuhmu!</h1>
+            <div class="container">
+
+                <p>Apa jenis kelaminmu?</p>
+                <label class="gender">
+                    <input type="radio" name="radio" id="f">
+                    <p class="text">Perempuan</p>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="gender">
+                    <input type="radio" name="radio" id="m">
+                    <p class="text">Laki-laki</p>
+                    <span class="checkmark"></span>
+                </label>
+                <p class="text">Berapa usiamu?</p>
+                <input type="text" class="input-text" id="age" autocomplete="off" required>
+
+                <p class="text">Berapa tinggi badanmu? (cm)</p>
+                <input type="text" class="input-text" id="height" autocomplete="off" required>
+
+                <p class="text">Berapa berat badanmu? (kg)</p>
+                <input type="text" class="input-text" id="weight" autocomplete="off" required>
+
+                <div class="btn">
+                    <button type="button" id="submit">Hitung</button>
+                    <button type="reset" id="btnReset" onclick="window.location.reload()">Reset</button>
+                </div>
+            </div>
+        </form>
+    </main>
+
+
+    <!-- Javascript  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/assets/js/main.js"></script>
+
+    <!-- Function BMI  -->
+    <script src="/assets/js/bmi.js"></script>
+</body>
+
+</html>
